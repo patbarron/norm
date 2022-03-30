@@ -31,4 +31,4 @@ dated February 2016, located at http://www.glicko.net/ratings/titles.pdf.
 
 Be aware that the calculation involving norms in events that include
 an unplayed game doesn't currently work, for reasons I don't yet
-understand.
+understand (see issue #1 in this project on GitHub).
