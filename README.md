@@ -30,4 +30,5 @@ Calculations are based on the document "The US Chess Title System",
 dated February 2016, located at http://www.glicko.net/ratings/titles.pdf.
 
 Be aware that the calculation involving norms in events that include
-an unplayed game is really not tested at all.
+an unplayed game doesn't currently work, for reasons I don't yet
+understand.
