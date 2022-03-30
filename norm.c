@@ -7,8 +7,8 @@
 #define NROUNDS 20
 
 /* number of titles available (must correspond to values initialized in
- * titles, norm_titles, and norm_awarded arrays
- * */
+ * titles, norm_titles, and norm_awarded arrays).
+ */
 #define NTITLES 7
 
 void main(int argc, char *argv[])
@@ -23,7 +23,7 @@ void main(int argc, char *argv[])
 	int i, j, k; /* generic loop counter */
 	int rating_diff; /* difference between opponent's rating and title level rating */
 	float cr; /* win expectancy for a given round */
-	float ct; /* sum of all win expectancies in a round */
+	float ct; /* sum of all win expectancies at a given norm level */
 
 
 	/* Basic checks to see if command line is reasonable */
@@ -65,7 +65,7 @@ void main(int argc, char *argv[])
 	 * highest norm awarded.  There could be other, lower norms
 	 * awarded too, but we don't care about those - we only print
 	 * the highest.
-	 * */
+	 */
 	for (i = NTITLES-1; i >= 0; i--) {
 		if (norm_awarded[i] == 1) {
 			printf("%s\n", titles[i]);
