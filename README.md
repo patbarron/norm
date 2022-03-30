@@ -18,12 +18,12 @@ parsing the output isn't an issue.  If you need a refresher,
 these are the different title names and their single-character
 abbreviations:
 
-4 = 4th Category
-3 = 3rd Category
-2 = 2nd Category
-1 = 1st Category
-C = Candidate Master
-M = Life Master
+4 = 4th Category<br>
+3 = 3rd Category<br>
+2 = 2nd Category<br>
+1 = 1st Category<br>
+C = Candidate Master<br>
+M = Life Master<br>
 S = Senior Life Master
 
 Calculations are based on the document "The US Chess Title System",
